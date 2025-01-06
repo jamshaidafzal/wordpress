@@ -1,7 +1,7 @@
 export default function BOOKUS() {
     return (
         // Main container for the "Book Us" section
-        <div className="bg-[#ffb299] flex flex-col items-center justify-center w-full pt-20 pb-20">
+        <div className="bg-[#ffb299] flex flex-col items-center justify-center w-full pt-20 pb-20  space-y-10 p-5 md:px-28">
             {/* Heading for the section */}
             <h1 className="text-black !important font-bold pb-10 text-5xl">
                 Ready to hire your WordPress developer?

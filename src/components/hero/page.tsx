@@ -13,7 +13,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row container mx-auto pt-20 pb-20">
+    <div className="flex flex-col md:flex-row container mx-auto pt-20 pb-20 w-full  space-y-10 md:px-28 p-5">
       {/* Text Section */}
       <div className="w-full md:w-1/2 flex flex-col justify-center items-start px-8 order-2 md:order-1">
         <h1 className="text-4xl text-bold font-bold mb-4">Need WordPress Website Design? Let Our Experts Help You!</h1>
@@ -38,8 +38,8 @@ const Hero = () => {
 
 {/* Slider Section */}
 <div className="w-full md:w-1/2 flex items-center justify-center order-1 md:order-2">
-  <div className="w-full h-full relative overflow-hidden rounded-tl-[50px] rounded-br-[50px] flex items-center justify-center">
-    <Slider images={heroImages} imageSize="w-[600px] h-[600px]" />
+  <div className="w-full h-full relative overflow-hidden rounded-tl-[60px] rounded-br-[60px] flex items-center justify-center">
+    <Slider images={heroImages} imageSize="w-[620px] h-[800px]" />
   </div>
 </div>
 

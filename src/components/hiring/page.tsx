@@ -1,6 +1,6 @@
 export default function Hiring() {
     return (
-        <div className="pt-20 pb-20">
+        <div className="pt-15 pb-15 w-full  space-y-10 p-5 md:px-28">
             {/* Section Title */}
             <h1 className="font-bold text-4xl text-gray-800 text-center pb-10">
                 Hire WordPress Website Expert in 5 Minutes

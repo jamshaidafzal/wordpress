@@ -1,6 +1,6 @@
 export default function Testimonials() {
     return (
-        <div className="pt-20">
+        <div className="pt-20 md:px-28 p-5">
             {/* Section Title and Introduction */}
             <div className="items-center justify-center text-center pb-10">
                 <h1 className="text-5xl text-gray-800 text-center">Why We’re Best in WordPress </h1>
@@ -10,7 +10,7 @@ export default function Testimonials() {
             </div>
 
             {/* Testimonials Grid */}
-            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-2">
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-2 w-full   p-5 md:px-10">
                 
                 {/* Testimonial 1 */}
                 <div className="bg-[#EDF5F2] border-l-8 border-[#ffb299] shadow-transparent h-76 flex items-center justify-center p-8 rounded-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out">

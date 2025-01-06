@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="bg-[#151D22] h-auto pt-10">
     {/* Main Grid Container for Footer */}
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 p-5  md:px-28 ">
       {/* First Column: Logo and Description */}
       <div className="flex flex-col items-start">
         <img
