@@ -11,6 +11,7 @@ import Faqsdisplay from "@/components/faqsdisplay/faqsdisplay";
 import BOOKUS from "@/components/bookus/page";
 import Footer from "@/components/footer/page";
 import { AnimatedSection } from "@/components/animatedSection/Page";
+import ScreenSizeDisplay from "@/components/screensizedisplay/screenSizeDisplay";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -20,6 +21,7 @@ const fadeIn = {
 export default function Home() {
   return (
     <div>
+<ScreenSizeDisplay/>
       <AnimatedSection>
         <Header />
       </AnimatedSection>

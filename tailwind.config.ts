@@ -23,6 +23,9 @@ export default {
         extrabold: '800',
         blackweight: '900',
       },
+      spacing: {
+        '79': '316.5px', // Add your custom value (e.g., 360px)
+      },
     },
   },
   plugins: [],
